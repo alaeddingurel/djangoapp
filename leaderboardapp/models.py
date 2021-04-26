@@ -11,6 +11,7 @@ class User(models.Model):
     points = models.IntegerField(default=0)
     rank = models.IntegerField(default=888888)
 
+
 class Submission(models.Model):
     score_worth = FloatField()
     user_id = models.UUIDField(default=uuid.uuid4)

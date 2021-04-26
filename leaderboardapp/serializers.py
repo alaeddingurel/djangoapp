@@ -15,7 +15,6 @@ class SubmissionSerializer(serializers.ModelSerializer):
         fields = ['score_worth', 'user_id', 'timestamp']
 
     
-    
     """user_id = serializers.UUIDField(format="hex_verbose")
     display_name = serializers.CharField(max_length=40)
     points = serializers.IntegerField()
