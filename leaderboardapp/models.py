@@ -4,7 +4,6 @@ import datetime
 from django.utils import timezone
 from django.db.models.fields import DateTimeField, FloatField
 
-
 class User(models.Model):
     user_id = models.UUIDField(default=uuid.uuid4, unique=True)
     display_name = models.CharField(max_length=40)
