@@ -5,8 +5,7 @@ This app is a leaderboard app which manages leaderboard ranking and user profile
 
 
 
-<span style="color:blue">leaderboard/</span>.
-leaderboard/\
+`leaderboard/`\
 leaderboard/<str:country_code>\
 user/create/\
 user/profile/<uuid:user_uuid>\
