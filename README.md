@@ -1,17 +1,21 @@
-** LeaderboardApp **
+## LeaderboardApp
 
 
 This app is a leaderboard app which manages leaderboard ranking and user profile informations
 
 
 
-`leaderboard/`\
-leaderboard/<str:country_code>\
-user/create/\
-user/profile/<uuid:user_uuid>\
-submit/score/\
+`GET leaderboard/`\
+#### Request Body
+`GET leaderboard/<str:country_code>`\
+`POST user/create/`\
+`GET user/profile/<uuid:user_uuid>`\
+`POST submit/score/`\
 
-construct/\
-delete/\
+## Additional 
+`construct/`\
+ 
+`delete/`\
+
 
 
